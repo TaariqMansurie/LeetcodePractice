@@ -22,8 +22,7 @@ public class LongestCommonPrefix {
             // Example 1
             String[] words1 = {"flower","flow","flight"};
             System.out.println(sol.longestCommonPrefix(words1)); // Output: "fl"
-    
-            // Example 2
+                // Example 2
             String[] words2 = {"dog","racecar","car"};
             System.out.println(sol.longestCommonPrefix(words2)); // Output: ""
     
