@@ -21,3 +21,5 @@ class Solution {
         System.out.println(sol.isPowerOfThree(n2)); // Output: false
     }
 }
+
+//making changes
