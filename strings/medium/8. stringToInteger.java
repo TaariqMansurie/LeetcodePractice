@@ -41,7 +41,7 @@ public class stringToInteger {
         System.out.println(sol.myAtoi("   -042"));       // Output: -42
         System.out.println(sol.myAtoi("1337c0d3"));      // Output: 1337
         System.out.println(sol.myAtoi("0-1"));          // Output: 0
-        System.out.println(sol.myAtoi("words and 987"));// Output: 0
+        System.out.println(sol.myAtoi("words and 987"));// Output: 0 // true
         System.out.println(sol.myAtoi("-91283472332")); // Output: -2147483648 (Clamped to INT_MIN) // true
     }
 
