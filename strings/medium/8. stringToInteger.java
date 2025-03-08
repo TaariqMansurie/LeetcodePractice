@@ -38,7 +38,7 @@ public class stringToInteger {
     public static void main(String[] args) {
         stringToInteger sol = new stringToInteger();
         System.out.println(sol.myAtoi("42"));            // Output: 42
-        System.out.println(sol.myAtoi("   -042"));       // Output: -42
+        System.out.println(sol.myAtoi("   -042"));       // Output: -42 //true
         System.out.println(sol.myAtoi("1337c0d3"));      // Output: 1337 // true
         System.out.println(sol.myAtoi("0-1"));          // Output: 0 // true
         System.out.println(sol.myAtoi("words and 987"));// Output: 0 // true
